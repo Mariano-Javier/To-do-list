@@ -1,0 +1,86 @@
+body {
+    background-color: #00172E;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.principal {
+    margin: 5px;
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 5px;
+    vertical-align:bottom;
+    font-size: 18px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white; 
+    margin-left: 5px
+}
+
+.boton-agregar:hover {
+    background-color:rgba(255, 34, 34, 0.5);
+}
+
+.boton-agregar:active {
+    background-color:rgba(139, 139, 139, 0.5);
+}
+
+.boton-editar, .boton-remover{
+    margin-left: 3px;
+}
+
+.item-input {
+    width: 30vw;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.boton-editar{
+    margin: 0 5px;
+    border: none;
+    background: none;
+    color:#62d0ff;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:rgb(255, 6, 46);
+}
+
+.boton-editar:hover{
+    color:#52acd3;
+}
+
+.boton-remover:hover {
+    color:#000000;
+}
